@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f5f7fb;
+            color:#333;
+        }
+
+        header{
+            padding:20px 80px;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            color:#6C63FF;
+            font-size:30px;
+        }
+
+        nav ul{
+            display:flex;
+            list-style:none;
+        }
+
+        nav ul li{
+            margin-left:30px;
+        }
+
+        nav ul li a{
+            text-decoration:none;
+            color:#333;
+            font-weight:bold;
+        }
+
+        nav ul li a:hover{
+            color:#6C63FF;
+        }
+
+        .hero{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            min-height:85vh;
+            padding:0 80px;
+        }
+
+        .content{
+            width:50%;
+        }
+
+        .content h3{
+            font-size:25px;
+        }
+
+        .content h1{
+            font-size:60px;
+            color:#6C63FF;
+            margin:10px 0;
+        }
+
+        .content h2{
+            margin-bottom:20px;
+        }
+
+        .content p{
+            font-size:18px;
+            line-height:1.7;
+            margin-bottom:30px;
+            color:#555;
+        }
+
+        .buttons{
+            display:flex;
+            gap:20px;
+        }
+
+        .btn{
+            text-decoration:none;
+            background:#6C63FF;
+            color:white;
+            padding:12px 25px;
+            border-radius:6px;
+        }
+
+        .btn:hover{
+            background:#574fd6;
+        }
+
+        .btn2{
+            text-decoration:none;
+            border:2px solid #6C63FF;
+            color:#6C63FF;
+            padding:10px 25px;
+            border-radius:6px;
+        }
+
+        .btn2:hover{
+            background:#6C63FF;
+            color:white;
+        }
+
+        .image img{
+            width:350px;
+            height:350px;
+            border-radius:50%;
+            border:6px solid #6C63FF;
+            object-fit:cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">Portfolio</h2>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="content">
+        <h3>Hello, I'm</h3>
+        <h1>Manohari Acharya</h1>
+        <h2>Python Backend Developer</h2>
+
+        <p>
+            I am passionate about Python backend development and enjoy
+            building responsive, user-friendly web applications using
+            Flask, HTML, CSS, JavaScript, and MySQL.
+        </p>
+
+        <div class="buttons">
+            <a href="#" class="btn">View Projects</a>
+            <a href="contact.html" class="btn2">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="image">
+        <img src="profile.jpg" alt="Profile">
+    </div>
+
+</section>
+
+</body>
+</html>
